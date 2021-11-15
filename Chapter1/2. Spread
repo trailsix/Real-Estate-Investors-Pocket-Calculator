@@ -1,0 +1,28 @@
+# page 13
+# SPREAD
+# Two important factors in MLS listings are the spread between asked and sale prices and the amount of time between the original listing date and the closing date.
+# Spread is calculated by first determining the difference between asked and sale price, then dividing that difference by the original asked price.  The result expressed as %.
+# Sale price is usually lower so the result is a negative %.
+
+* Formula: Spread
+(SP - AP) / AP = S
+where:
+SP = sale price
+AP = asked price
+S = spread
+
+* Excel Program: Spread
+A1: sale price
+B1: asked price
+C1: =SUM(A1/B1)/B1
+
+Examples:
+Buyer's market
+AP = $135,000
+SP = $129,500
+S = -4.1%
+
+Seller's market
+AP = $135,000
+SP = $142,000
+S = 5.2%
