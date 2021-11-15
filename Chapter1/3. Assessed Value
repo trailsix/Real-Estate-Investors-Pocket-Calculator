@@ -1,0 +1,22 @@
+# page 15
+# ASSESSED VALUE
+# For rental properties, another method of verifying values is to check property tax bills and the local assessed value.
+# Checking assessed value for several different properties provides you with a comparison between assessed value and asked price.
+# This might reveal inconsistencies or demonstrate an important difference between the realistic market value and a basis used for property taxes.
+
+# 1. Adjusted assessed value is only an estimate
+# 2. Specific attributes of the property may be a factor
+# 3. Small changes between neighborhoods may affect assessed value
+# 4. Seller motivation may also be a factor in how the asked price is set
+
+* Formula: Assessment Ratio
+A / P = R
+where:
+A = assessed value
+P = asked price
+R = assessment ratio
+
+* Excel Program: Assessment Ratio
+A1: assessed value
+B1: asked price
+C1: =SUM(A1/B1)
