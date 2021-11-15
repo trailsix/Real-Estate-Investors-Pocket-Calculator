@@ -1,0 +1,17 @@
+# page 18
+# EXPENSE RATIO
+# In addition to checking average annual rents, you will also be interested in checking the expense ratio between properties
+# Also called the operating ratio.  This is the comparison between operating expenses and the rental income.
+# The ratio is expresses as a percentage, and it is most valuable when two or more properties are being compared.
+
+* Formula: Expense Ratio
+E / I = R
+where:
+E = operating expenses
+I = gross income from rents
+R = expense ratio
+
+* Excel Program: Expense Ratio
+A1: operating expenses
+B1: gross income from rents
+C1: =SUM(A1/B1)
