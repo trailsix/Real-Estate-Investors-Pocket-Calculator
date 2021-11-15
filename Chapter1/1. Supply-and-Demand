@@ -1,0 +1,17 @@
+# page 12
+# Calculating Supply and Demand
+# Step 1. Identify the inventory of homes (number of propertie of each type that are for sale) on the market and then calcualate the amount of supply that inventory represent.
+# Step 2. Determine the average number of properties (in your category) that are sold each month.
+# Step 3. Divide the inventory by the average number of closing s that have occurred each month to find the number of months of housing inventory currently on the market.
+
+* Formula: Months of Property Inventory on the Market
+I / S = M
+where:
+I = total inventory of properties currently available
+S = average sales per month
+M = months of inventory currently available
+
+* Excel Program: Months of Property Inventory on the Market
+A1: total inventory of properties
+B1: average sales per month
+C1: = SUM(A1/B1)
